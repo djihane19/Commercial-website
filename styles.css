@@ -32,12 +32,15 @@ nav{
     font-size: 35px;
     display: flex;
     color:rgb(56, 0, 61);
-
     
 }
 .logo img{
     width:32px;
     margin-right: 10px;
+    background-color:rgb(56, 0, 61);
+    border-radius: 25%;
+    padding:5px;
+    box-shadow: -5px -5px 5px 5px rgb(202, 134, 241);
 }
 .nav-links{
     flex:1;
@@ -143,8 +146,8 @@ nav{
 .overlay{
     width:0;
     height: 0;
-    border-top: 500px solid #fff;
-    border-right: 500px solid rgba(255, 0, 0, 0);
+    border-top: 500px solid #ffffff;
+    border-right: 500px solid rgba(0, 255, 242, 0);
     border-bottom: 500px solid rgb(255, 255, 255);
     border-left: 500px solid rgb(255, 255, 255);
     position: absolute;
